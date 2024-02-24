@@ -13,11 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false, //disable the debug banner
       home: const HomePage(),
-
       theme: ThemeData(
           brightness: Brightness.dark,
           primarySwatch: Colors.grey,
-          appBarTheme: AppBarTheme(
+          appBarTheme: const AppBarTheme(
             backgroundColor: Colors.transparent,
             elevation: 0,
           )),
