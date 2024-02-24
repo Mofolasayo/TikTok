@@ -64,9 +64,10 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/pexels-hissetmehurriyeti-12105849 (2160p).mp4
-    - assets/pexels-ammad-rasool-11899323 (1440p).mp4
-    - assets/188615 (540p).mp4
+    - assets/dash6.jpg
+    - assets/pexels-ammad-rasool-11899323.mp4
+    - assets/pexels-ammad-rasool-11899323.mp4
+    - assets/188615.mp4
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

@@ -15,7 +15,8 @@ class MyPost2 extends StatelessWidget {
         videoDescription: "Dash's lover",
         numberOfBookmarks: '100',
         userPost: VideoPlayer1(
-          videoUrl: 'assets/pexels-hissetmehurriyeti-12105849 (2160p).mp4',
+          videoUrl:
+              'https://player.vimeo.com/external/394718464.sd.mp4?s=e369f0eda883f16d097c348d9be0a5a7a3baf7e0&profile_id=165&oauth2_token_id=57447761',
         ));
   }
 }

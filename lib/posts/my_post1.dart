@@ -15,7 +15,8 @@ class MyPost1 extends StatelessWidget {
       videoDescription: 'Captions',
       numberOfBookmarks: '402',
       userPost: VideoPlayer1(
-        videoUrl: 'assets/188615 (540p).mp4',
+        videoUrl:
+            'https://player.vimeo.com/external/490881499.sd.mp4?s=414613a701f3c392a3e8c4d4bdd3489978c54ff3&profile_id=165&oauth2_token_id=57447761',
       ),
     );
   }
