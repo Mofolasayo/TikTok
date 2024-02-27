@@ -12,7 +12,7 @@ class MyButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 10.0),
+      padding: const EdgeInsets.symmetric(vertical: 5.0),
       child: Column(
         children: [
           Icon(
@@ -20,9 +20,12 @@ class MyButton extends StatelessWidget {
             size: buttonSize,
           ),
           const SizedBox(
-            height: 6,
+            height: 2,
           ),
-          Text(number),
+          Text(
+            number,
+            style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
+          ),
         ],
       ),
     );

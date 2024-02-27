@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tik_tok/util/button.dart';
+import 'package:tik_tok/util/disc.dart';
+import 'package:tik_tok/util/profile_button.dart';
 
 class PostTemplate extends StatelessWidget {
   final String userName;
@@ -10,6 +12,8 @@ class PostTemplate extends StatelessWidget {
   final String hashtags;
   final String numberOfBookmarks;
   final userPost;
+  final String discImage;
+  final String profileImage;
   // ignore: prefer_typing_uninitialized_variables
   //final userPost;
   // ignore: use_key_in_widget_constructors
@@ -22,6 +26,8 @@ class PostTemplate extends StatelessWidget {
     this.hashtags = ' #fyp #flutter #dash #butterfly',
     required this.numberOfBookmarks,
     required this.userPost,
+    required this.discImage,
+    required this.profileImage,
   });
 
   @override
@@ -68,10 +74,15 @@ class PostTemplate extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
+                ProfileButton(
+                  image: profileImage,
+                ),
+                const SizedBox(height: 15.0),
                 MyButton(number: numberOfLikes, icon: Icons.favorite),
                 MyButton(number: numberOfComments, icon: Icons.chat_bubble),
                 MyButton(number: numberOfBookmarks, icon: Icons.bookmark),
                 MyButton(number: numberOfShares, icon: Icons.send),
+                Disc(image: discImage),
               ],
             ),
           ),

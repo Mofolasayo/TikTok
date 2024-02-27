@@ -65,6 +65,9 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/dash6.jpg
+    - assets/disc.jpg
+    - assets/disc2.png
+    - assets/disc3.png
     - assets/pexels-ammad-rasool-11899323.mp4
     - assets/pexels-ammad-rasool-11899323.mp4
     - assets/188615.mp4

@@ -147,8 +147,8 @@ class UserProfilePage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                     color: Colors.grey[200],
                   ),
-                  child:
-                      Icon(Icons.person_add_alt_outlined, color: Colors.black),
+                  child: const Icon(Icons.person_add_alt_outlined,
+                      color: Colors.black),
                 ),
               ],
             ),

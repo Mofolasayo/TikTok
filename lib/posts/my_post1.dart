@@ -9,6 +9,10 @@ class MyPost1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return const PostTemplate(
       userName: 'Dash',
+      discImage:
+          'https://pbs.twimg.com/media/FJE-yDcXEAMsxeD?format=jpg&name=small',
+      profileImage:
+          'https://pbs.twimg.com/media/FJE-yDcXEAMsxeD?format=jpg&name=small',
       numberOfComments: '203',
       numberOfLikes: '1.2M',
       numberOfShares: '51k',
