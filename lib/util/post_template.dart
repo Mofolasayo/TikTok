@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tik_tok/util/button.dart';
 import 'package:tik_tok/util/disc.dart';
 import 'package:tik_tok/util/profile_button.dart';
@@ -80,8 +81,16 @@ class PostTemplate extends StatelessWidget {
                 const SizedBox(height: 15.0),
                 MyButton(number: numberOfLikes, icon: Icons.favorite),
                 MyButton(number: numberOfComments, icon: Icons.chat_bubble),
-                MyButton(number: numberOfBookmarks, icon: Icons.bookmark),
-                MyButton(number: numberOfShares, icon: Icons.send),
+                MyButton(
+                  number: numberOfBookmarks,
+                  icon: Icons.bookmark_rounded,
+                  buttonSize: 35.0,
+                ),
+                MyButton(
+                  number: numberOfShares,
+                  icon: FontAwesomeIcons.share,
+                  buttonSize: 25.0,
+                ),
                 Disc(image: discImage),
               ],
             ),
